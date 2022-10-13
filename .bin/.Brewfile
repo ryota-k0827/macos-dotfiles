@@ -6,53 +6,66 @@ tap "homebrew/cask"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 
-brew "anyenv"
-brew "bash-completion"
-brew "cfn-lint"
-brew "exa"
 brew "git"
-brew "git-secrets"
+# brew "git-secrets"
 # brew "heroku"
-brew "jq"
+# brew "jq"
 brew "mas"
-brew "rsync"
+# brew "rsync"
 brew "shellcheck"
-brew "tflint"
-brew "tfsec"
+# brew "tflint"
+# brew "tfsec"
 brew "tree"
-brew "watch"
+# brew "watch"
 brew "wget"
 
+cask "adobe-creative-cloud"
 cask "alfred"
+cask "alt-tab"
 cask "appcleaner"
-cask "aws-vault"
+# cask "aws-vault"
 # cask "bettertouchtool"
+cask "brave-browser"
 cask "cheatsheet"
 cask "clipy"
-# cask "discord"
+cask "deepl"
+cask "discord"
 cask "docker"
+cask "figma"
 cask "firefox"
-# cask "google-chrome"
+cask "google-chrome"
+cask "google-drive"
 # cask "google-japanese-ime"
-# cask "hyperswitch"
-cask "iterm2"
+# cask "iterm2"
 cask "keyboardcleantool"
-# cask "kindle"
+cask "microsoft-edge"
+cask "ngrok"
 cask "notion"
-# cask "ocenaudio"
-# cask "parallels-client"
 cask "postman"
 cask "rectangle"
-cask "simplenote"
+cask "scroll-reverser"
+# cask "simplenote"
 # cask "skitch"
-# cask "slack"
+cask "slack"
 cask "sourcetree"
+# cask "readdle-spark"
 cask "the-unarchiver"
+cask "tree"
 cask "visual-studio-code"
-# cask "zoom"
+cask "volta"
+cask "warp"
+cask "zoom"
 
-# mas "BetterSnapTool", id: 417375580
-# mas "LINE", id: 539883307
-# mas "KakaoTalk", id: 869223134
+mas "BetterSnapTool", id: 417375580
+mas "LINE", id: 539883307
 # mas "Magnet", id: 441258766
-# mas "Todoist", id: 585829637
+mas "Microsoft Excel", id: 462058435
+mas "Microsoft PowerPoint", id: 462062816
+mas "Microsoft Remote Desktop", id: 1295203466
+mas "Microsoft Word", id: 462054704
+mas "Notability", id: 360593530
+mas "PicGIF Lite", id: 844918735
+mas "RunCat", id: 1429033973
+mas "Spark", id: 1176895641
+mas "Todoist", id: 585829637
+mas "Twitter", id: 1482454543
