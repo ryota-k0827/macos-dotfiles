@@ -17,6 +17,9 @@ defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 # Always display scrollbars
 defaults write NSGlobalDomain AppleShowScrollBars -string "Always"
 
+# Use the Fn key as a standard function key
+defaults write NSGlobalDomain com.apple.keyboard.fnState -bool true
+
 # Key repeat speed
 defaults write NSGlobalDomain KeyRepeat -int 2
 
