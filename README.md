@@ -4,6 +4,8 @@
 
 This repository contains scripts to set macOS.
 
+[Reference Sources](https://dev.classmethod.jp/articles/joined-mac-dotfiles-customize/#toc-3)
+
 ## Required
 
 ```shell
