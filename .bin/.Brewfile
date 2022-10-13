@@ -16,6 +16,7 @@ brew "shellcheck"
 # brew "tflint"
 # brew "tfsec"
 brew "tree"
+brew "volta"
 # brew "watch"
 brew "wget"
 
@@ -50,20 +51,18 @@ cask "slack"
 cask "sourcetree"
 # cask "readdle-spark"
 cask "the-unarchiver"
-cask "tree"
 cask "visual-studio-code"
-cask "volta"
 cask "warp"
 cask "zoom"
 
-mas "BetterSnapTool", id: 417375580
+# mas "BetterSnapTool", id: 417375580
 mas "LINE", id: 539883307
 # mas "Magnet", id: 441258766
 mas "Microsoft Excel", id: 462058435
 mas "Microsoft PowerPoint", id: 462062816
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "Microsoft Word", id: 462054704
-mas "Notability", id: 360593530
+# mas "Notability", id: 360593530
 mas "PicGIF Lite", id: 844918735
 mas "RunCat", id: 1429033973
 mas "Spark", id: 1176895641
