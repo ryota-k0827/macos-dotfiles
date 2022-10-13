@@ -8,7 +8,7 @@ fi
 
 # Install Rosetta 2 for Apple Silicon
 if [ "$(uname -m)" = "arm64" ] ; then
-  /usr/sbin/softwareupdate --install-rosetta --agree-to-license
+  /usr/sbin/softwareupdate --install-rosetta --agree-to-license > /dev/null
 fi
 
 # Install xcode
