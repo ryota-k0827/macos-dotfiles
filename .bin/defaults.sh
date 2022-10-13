@@ -11,6 +11,12 @@ fi
 #
 # ====================
 
+# Remap the emoji picker to the Fn key
+defaults write com.apple.HIToolbox AppleFnUsageType -int 2
+
+# Enable full keyboard access for all controls
+defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
+
 # Show files with all extensions
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
@@ -63,6 +69,12 @@ defaults write com.apple.dock autohide-delay -float 0
 
 # Show hidden files by default
 defaults write com.apple.finder AppleShowAllFiles -bool true
+
+# Show icons for hard drives, servers, and removable media on the desktop
+defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
+defaults write com.apple.finder ShowHardDrivesOnDesktop -bool true
+defaults write com.apple.finder ShowMountedServersOnDesktop -bool true
+defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
 
 # Display the status bar
 defaults write com.apple.finder ShowStatusBar -bool true
