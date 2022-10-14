@@ -7,7 +7,7 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 
 brew "git"
-# brew "git-secrets"
+brew "git-secrets"
 # brew "heroku"
 # brew "jq"
 brew "mas"
