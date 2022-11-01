@@ -1,0 +1,13 @@
+[user]
+	name = ryota-k0827
+	email = 50436249+ryota-k0827@users.noreply.github.com
+[core]
+	excludesfile = /Users/ryota/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/ryota/.stCommitMsg
