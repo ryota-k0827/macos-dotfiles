@@ -27,6 +27,7 @@ cask "appcleaner"
 # cask "aws-vault"
 # cask "bettertouchtool"
 cask "brave-browser"
+cask "canva"
 cask "cheatsheet"
 # cask "clipy"
 cask "deepl"
@@ -58,6 +59,7 @@ cask "warp"
 cask "zoom"
 
 # mas "BetterSnapTool", id: 417375580
+mas "Gapplin", id: 768053424
 mas "LINE", id: 539883307
 # mas "Magnet", id: 441258766
 mas "Microsoft Excel", id: 462058435
