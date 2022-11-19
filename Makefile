@@ -1,5 +1,5 @@
 # Do everything.
-all: init link defaults brew
+all: init link brew
 
 # Set initial preference.
 init:
@@ -10,8 +10,8 @@ link:
 	.bin/link.sh
 
 # Set macOS system preferences.
-defaults:
-	.bin/defaults.sh
+# defaults:
+# 	.bin/defaults.sh
 
 # Install macOS applications.
 brew:
