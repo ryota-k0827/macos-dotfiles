@@ -38,6 +38,10 @@ Set iterm2.
 5. Enter `~/dotfiles/iterm/com.googlecode.iterm2.plist`.
 6. Execute `sudo killall cfprefsd`.
 
+## Other Applications
+
+- [DisplayLink Manager](https://www.synaptics.com/products/displaylink-graphics/downloads/macos)
+
 ## License
 
 [MIT](LICENSE)
