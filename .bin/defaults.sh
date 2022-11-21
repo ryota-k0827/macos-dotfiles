@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/usr/bin/zsh
 
 if [ "$(uname)" != "Darwin" ] ; then
 	echo "Not macOS!"

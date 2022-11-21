@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/usr/bin/zsh
 
 ssh-keygen -N '' -f ~/.ssh/id_rsa -t rsa > /dev/null
 pbcopy < ~/.ssh/id_rsa.pub > /dev/null
