@@ -1,5 +1,5 @@
 # Do everything.
-all: init link brew
+all: init link brew gitssh
 
 # Set initial preference.
 init:
@@ -16,3 +16,7 @@ link:
 # Install macOS applications.
 brew:
 	.bin/brew.sh
+
+# Create a github ssh key.
+gitssh:
+	.bin/gitssh.sh
