@@ -17,6 +17,10 @@ defaults:
 brew:
 	.bin/brew.sh
 
+# Setup tools.
+Setup:
+	.bin/setup.sh
+
 # Create a github ssh key.
 gitssh:
 	.bin/gitssh.sh
