@@ -42,6 +42,8 @@ Set iterm2.
 
 - [DisplayLink Manager](https://www.synaptics.com/products/displaylink-graphics/downloads/macos)
 
+- [Logi Options+](https://www.logicool.co.jp/ja-jp/software/logi-options-plus.html#software-download)
+
 ## License
 
 [MIT](LICENSE)
