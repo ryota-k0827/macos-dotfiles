@@ -1,4 +1,4 @@
-#!/usr/bin/zsh
+#!/bin/zsh
 
 # Check operating system
 if [ "$(uname)" != "Darwin" ] ; then

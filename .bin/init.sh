@@ -1,4 +1,4 @@
-#!/usr/bin/zsh
+#!/bin/zsh
 
 # Check operating system
 if [ "$(uname)" != "Darwin" ] ; then
@@ -8,14 +8,14 @@ fi
 
 # Install Rosetta 2 for Apple Silicon
 if [ "$(uname -m)" = "arm64" ] ; then
-  /usr/sbin/softwareupdate --install-rosetta --agree-to-license > /dev/null
+  /usr/sbin/softwareupdate --install-rosetta --agree-to-license
 fi
 
 # Install xcode
-xcode-select --install > /dev/null
+xcode-select --install
 
 # Install brew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" > /dev/null
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 if [ "$(uname -m)" = "arm64" ] ; then
   echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /Users/${USER}/.zprofile > /dev/null
   echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/${USER}/.zprofile > /dev/null
