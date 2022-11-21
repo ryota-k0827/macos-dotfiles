@@ -63,6 +63,7 @@ cask "zoom"
 
 # mas "BetterSnapTool", id: 417375580
 mas "Gapplin", id: 768053424
+mas "Hidden Bar", id: 1452453066
 mas "LINE", id: 539883307
 # mas "Magnet", id: 441258766
 mas "Microsoft Excel", id: 462058435
