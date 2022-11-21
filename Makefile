@@ -1,5 +1,5 @@
 # Do everything.
-all: init link defaults brew gitssh
+all: init link defaults brew setup
 
 # Set initial preference.
 init:
@@ -18,9 +18,5 @@ brew:
 	.bin/brew.sh
 
 # Setup tools.
-Setup:
+setup:
 	.bin/setup.sh
-
-# Create a github ssh key.
-gitssh:
-	.bin/gitssh.sh
