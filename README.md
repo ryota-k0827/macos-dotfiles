@@ -4,15 +4,18 @@
 
 This repository contains scripts to set macOS.
 
-[Reference Sources](https://dev.classmethod.jp/articles/joined-mac-dotfiles-customize/#toc-3)
-
 ## Required
 
 ```shell
-$ sw_vers
+% sw_vers
 ProductName:	macOS
-ProductVersion:	12.6
-BuildVersion:	21G115
+ProductVersion:	12.6.1
+BuildVersion:	21G217
+```
+
+```shell
+% zsh --version
+zsh 5.8.1 (x86_64-apple-darwin21.0)
 ```
 
 ## Install
@@ -20,13 +23,13 @@ BuildVersion:	21G115
 Download installation materials.
 
 ```shell
-$ cd ~ && git clone https://github.com/ryota-k0827/dotfiles
+% cd ~ && git clone https://github.com/ryota-k0827/dotfiles
 ```
 
 Set macOS.
 
 ```shell
-$ cd ~/dotfiles && make
+% cd ~/dotfiles && make
 ```
 
 Set iterm2.
