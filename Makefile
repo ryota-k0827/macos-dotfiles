@@ -1,5 +1,5 @@
 # Do everything.
-all: init link defaults brew setup
+all: init link defaults brew setup other_apps
 
 # Set initial preference.
 init:
@@ -29,4 +29,10 @@ brew:
 setup:
 	@echo "\033[0;34mRun setup.sh\033[0m"
 	@.bin/setup.sh
+	@echo "\033[0;32mDone.\033[0m"
+
+# Setup Other apps
+other_apps:
+	@echo "\033[0;34mRun other_apps.sh\033[0m"
+	@.bin/other_apps.sh
 	@echo "\033[0;32mDone.\033[0m"
