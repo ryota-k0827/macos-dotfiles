@@ -65,7 +65,10 @@ cask "zoom"
 
 # mas "BetterSnapTool", id: 417375580
 mas "Gapplin", id: 768053424
+mas "GarageBand", id: 682658836
 mas "Hidden Bar", id: 1452453066
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
 mas "LINE", id: 539883307
 # mas "Magnet", id: 441258766
 mas "Microsoft Excel", id: 462058435
@@ -73,6 +76,8 @@ mas "Microsoft PowerPoint", id: 462062816
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "Microsoft Word", id: 462054704
 # mas "Notability", id: 360593530
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
 mas "PicGIF Lite", id: 844918735
 mas "RunCat", id: 1429033973
 mas "Spark", id: 1176895641
