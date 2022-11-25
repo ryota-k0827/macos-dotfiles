@@ -104,3 +104,17 @@ alias yad='yarn add -D'
 alias yag='yarn global add'
 alias yrm='yarn remove'
 alias yrmg='yarn remove -g'
+
+alias c='code'
+alias cle='code --list-extensions'
+
+alias b='brew'
+alias bi='brew install'
+alias bs='brew search'
+alias bd='brew update'
+alias bg='brew upgrade'
+alias bo='brew outdated'
+alias bl='brew list'
+alias bd='brew doctor'
+
+alias alhelp='cat ${HOME}/.zshrc'
