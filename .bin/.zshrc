@@ -8,8 +8,8 @@ alias ....='cd ../../..'
 
 alias relogin='exec $SHELL -l'
 
-alias rmtrash='rm -rf ${HOME}/.Trash/*'
-alias rmdownloads='rm -rf ${HOME}/Downloads/*'
+alias rmtrash='rm -rf ${HOME}/.Trash/* ${HOME}/.Trash/.*'
+alias rmdownloads='rm -rf ${HOME}/Downloads/* ${HOME}/Downloads/.*'
 alias rmnm='rm -rf ./node_modules'
 
 alias delds='find . -name ".DS_Store" -type f -ls -delete'
