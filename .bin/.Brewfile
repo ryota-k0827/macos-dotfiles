@@ -26,6 +26,7 @@ brew "shellcheck"
 brew "tree"
 brew "volta"
 # brew "watch"
+brew "watchman"
 brew "wget"
 
 cask "adobe-creative-cloud"
