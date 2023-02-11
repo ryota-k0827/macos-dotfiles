@@ -85,6 +85,10 @@ alias dcd='docker compose down'
 
 alias v='volta'
 alias vin='volta install'
+function vrm (){
+  local PACKAGE_DIR=$1
+  rm -rf ~/.volta/tools/image/${PACKAGE_DIR}
+}
 alias vp='volta pin'
 
 alias n='node'
