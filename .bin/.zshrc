@@ -107,6 +107,7 @@ alias yrmg='yarn remove -g'
 
 alias c='code'
 alias cle='code --list-extensions'
+alias -g C='| pbcopy'
 
 alias b='brew'
 alias bi='brew install'

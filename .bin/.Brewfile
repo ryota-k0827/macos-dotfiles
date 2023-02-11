@@ -51,11 +51,13 @@ cask "goland"
 cask "google-chrome"
 cask "google-drive"
 # cask "google-japanese-ime"
+cask "hiddenbar"
 # cask "iterm2"
 cask "karabiner-elements"
 cask "keyboardcleantool"
 cask "raycast"
 cask "microsoft-edge"
+cask "monitorcontrol"
 cask "ngrok"
 cask "notion"
 cask "postman"
@@ -68,15 +70,17 @@ cask "sourcetree"
 cask "react-native-debugger"
 # cask "readdle-spark"
 cask "the-unarchiver"
+cask "todoist"
 cask "utm"
 cask "visual-studio-code"
 cask "warp"
 cask "zoom"
+cask "1password"
 
 # mas "BetterSnapTool", id: 417375580
 mas "Gapplin", id: 768053424
 mas "GarageBand", id: 682658836
-mas "Hidden Bar", id: 1452453066
+# mas "Hidden Bar", id: 1452453066
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "LINE", id: 539883307
@@ -91,6 +95,5 @@ mas "Pages", id: 409201541
 mas "PicGIF Lite", id: 844918735
 mas "RunCat", id: 1429033973
 mas "Spark", id: 1176895641
-mas "Todoist", id: 585829637
 mas "Twitter", id: 1482454543
 mas "Xcode", id: 497799835
