@@ -19,3 +19,7 @@ pbcopy < ${SSH_KEY_PATH}/id_rsa.pub
 echo "SSH key copied to clipboard. Paste it into GitHub."
 sleep 1; echo "Open the GitHub settings page:"
 sleep 1; open https://github.com/settings/ssh/new
+
+# Chromium Setup
+echo -e "\033[0;34m- Chromium Setup...\033[0m"
+xattr -rc /Applications/Chromium.app
