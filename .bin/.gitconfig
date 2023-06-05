@@ -10,3 +10,7 @@
 	excludesfile = ~/.gitignore_global
 [init]
     defaultBranch = main
+[commit]
+	gpgsign = true
+[gpg]
+	format = ssh
