@@ -84,16 +84,16 @@ alias dcu='docker compose up'
 alias dcud='docker compose up -d'
 alias dcd='docker compose down'
 
-alias v='volta'
-alias vin='volta install'
-function vrm (){
-  local PACKAGE_DIR=$1
-  rm -rf ~/.volta/tools/image/${PACKAGE_DIR}
-}
-alias vp='volta pin'
+# alias v='volta'
+# alias vin='volta install'
+# function vrm (){
+#   local PACKAGE_DIR=$1
+#   rm -rf ~/.volta/tools/image/${PACKAGE_DIR}
+# }
+# alias vp='volta pin'
 
-alias n='node'
-alias nv='node -v'
+# alias n='node'
+# alias nv='node -v'
 
 alias y='yarn'
 alias yv='yarn -v'

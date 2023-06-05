@@ -1,7 +1,11 @@
 [user]
-	name = ryota-k0827
-	email = 50436249+ryota-k0827@users.noreply.github.com
-	signingkey = /Users/ryota/.ssh/signing-key.pub
+	name = dip-ryota-kaneko1
+	email = 130530583+dip-ryota-kaneko1@users.noreply.github.com
+	signingkey = ~/.ssh/signing-key-gh-dip-ryota-kaneko1.pub
+[includeIf "gitdir:~/work/ghe/"]
+   path = ~/.gitconfig_ghe
+[includeIf "gitdir:~/work/gh/ryota-k0827/"]
+   path = ~/.gitconfig_gh-ryota-k0827
 [core]
 	excludesfile = ~/.gitignore_global
 [difftool "sourcetree"]
@@ -15,3 +19,5 @@
 	gpgsign = true
 [gpg]
 	format = ssh
+[init]
+    defaultBranch = main
