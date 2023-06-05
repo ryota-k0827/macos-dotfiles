@@ -2,22 +2,11 @@
 	name = dip-ryota-kaneko1
 	email = 130530583+dip-ryota-kaneko1@users.noreply.github.com
 	signingkey = ~/.ssh/signing-key-gh-dip-ryota-kaneko1.pub
-[includeIf "gitdir:~/work/ghe/"]
+[includeIf "gitdir:~/work/ghe/**"]
    path = ~/.gitconfig_ghe
-[includeIf "gitdir:~/work/gh/ryota-k0827/"]
+[includeIf "gitdir:~/work/gh/ryota-k0827/**"]
    path = ~/.gitconfig_gh-ryota-k0827
 [core]
 	excludesfile = ~/.gitignore_global
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
-[commit]
-	template = ~/.stCommitMsg
-	gpgsign = true
-[gpg]
-	format = ssh
 [init]
     defaultBranch = main
