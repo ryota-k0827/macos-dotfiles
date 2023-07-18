@@ -1,3 +1,5 @@
+# Fig pre block. Keep at the top of this file.
+[[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.pre.zsh"
 # User specific aliases and functions
 alias ll='ls -lF'
 alias la='ls -lAF'
@@ -84,16 +86,16 @@ alias dcu='docker compose up'
 alias dcud='docker compose up -d'
 alias dcd='docker compose down'
 
-# alias v='volta'
-# alias vin='volta install'
-# function vrm (){
-#   local PACKAGE_DIR=$1
-#   rm -rf ~/.volta/tools/image/${PACKAGE_DIR}
-# }
-# alias vp='volta pin'
+alias v='volta'
+alias vin='volta install'
+function vrm (){
+  local PACKAGE_DIR=$1
+  rm -rf ~/.volta/tools/image/${PACKAGE_DIR}
+}
+alias vp='volta pin'
 
-# alias n='node'
-# alias nv='node -v'
+alias n='node'
+alias nv='node -v'
 
 alias y='yarn'
 alias yv='yarn -v'
@@ -124,3 +126,10 @@ alias bl='brew list'
 alias bd='brew doctor'
 
 alias alhelp='cat ${HOME}/.zshrc'
+
+# switch platform
+alias intel="env /usr/bin/arch -x86_64 /bin/zsh --login"
+alias arm="env /usr/bin/arch -arm64 /bin/zsh --login"
+
+# Fig post block. Keep at the bottom of this file.
+[[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
