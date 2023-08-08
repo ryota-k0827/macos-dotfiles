@@ -8,5 +8,5 @@
 # Optional parameters:
 # @raycast.icon 🤖
 
-cd work/ghe/dip-activities/newgrad2023/
+cd ~/work/ghe/dip-activities/newgrad2023/
 make new
