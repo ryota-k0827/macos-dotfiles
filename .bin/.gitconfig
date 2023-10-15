@@ -1,17 +1,17 @@
 [user]
 	name = ryota-k0827
 	email = 50436249+ryota-k0827@users.noreply.github.com
-	signingkey = /Users/ryota/.ssh/signing-key.pub
+	signingkey = /home/ryota/.ssh/signing-key.pub
 [core]
 	excludesfile = ~/.gitignore_global
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
 [commit]
 	template = ~/.stCommitMsg
 	gpgsign = true
 [gpg]
 	format = ssh
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential

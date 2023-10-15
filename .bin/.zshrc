@@ -124,3 +124,5 @@ alias bl='brew list'
 alias bd='brew doctor'
 
 alias alhelp='cat ${HOME}/.zshrc'
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
