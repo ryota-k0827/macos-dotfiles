@@ -2,6 +2,8 @@
 
 ## Overview
 
+> 未完成ボロボロ状態です。いつか完成させます。
+
 This repository contains scripts to set macOS.
 
 ## Required
