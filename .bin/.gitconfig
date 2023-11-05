@@ -4,6 +4,7 @@
 	signingkey = /Users/ryota/.ssh/signing-key.pub
 [core]
 	excludesfile = ~/.gitignore_global
+	editor = vim
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
@@ -15,3 +16,5 @@
 	gpgsign = true
 [gpg]
 	format = ssh
+[alias]
+	ac = !git add -A && aicommits -a
