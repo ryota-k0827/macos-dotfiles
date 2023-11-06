@@ -103,6 +103,10 @@ alias dcd='docker compose down'
 # }
 # alias vp='volta pin'
 
+alias vi="nvim"
+alias vim="nvim"
+alias view="nvim -R"
+
 # alias n='node'
 # alias nv='node -v'
 
