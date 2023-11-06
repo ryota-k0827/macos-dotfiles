@@ -7,17 +7,20 @@
 [includeIf "gitdir:~/work/gh/ryota-k0827/**"]
   path = ~/.gitconfig_gh_ryota-k0827
 [core]
-	excludesfile = /Users/ryota-kaneko1/.gitignore_global
+	excludesfile = ~/.gitignore_global
+	editor = vim
 [init]
   defaultBranch = main
-[commit]
-	gpgsign = true
-	template = /Users/ryota-kaneko1/.stCommitMsg
-[gpg]
-	format = ssh
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
 [mergetool "sourcetree"]
 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
+[commit]
+	template = ~/.stCommitMsg
+	gpgsign = true
+[gpg]
+	format = ssh
+[alias]
+	ac = !git add -A && aicommits -a
