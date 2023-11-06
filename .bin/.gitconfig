@@ -3,13 +3,13 @@
 	email = 130530583+dip-ryota-kaneko1@users.noreply.github.com
 	signingkey = ~/.ssh/signing-key-gh-dip-ryota-kaneko1.pub
 [includeIf "gitdir:~/work/ghe/**"]
-   path = ~/.gitconfig_ghe
+  path = ~/.gitconfig_ghe
 [includeIf "gitdir:~/work/gh/ryota-k0827/**"]
-   path = ~/.gitconfig_gh-ryota-k0827
+  path = ~/.gitconfig_gh_ryota-k0827
 [core]
 	excludesfile = /Users/ryota-kaneko1/.gitignore_global
 [init]
-    defaultBranch = main
+  defaultBranch = main
 [commit]
 	gpgsign = true
 	template = /Users/ryota-kaneko1/.stCommitMsg
