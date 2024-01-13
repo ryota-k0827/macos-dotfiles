@@ -1,5 +1,5 @@
 # Do everything.
-all: init link defaults brew setup other_apps
+all: init link brew setup
 
 # Set initial preference.
 init:

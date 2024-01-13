@@ -9,6 +9,8 @@
 	gpgsign = true
 [gpg]
 	format = ssh
+[gpg "ssh"]
+  program = "/mnt/c/Users/ryota/AppData/Local/1Password/app/8/op-ssh-sign-wsl"
 [credential "https://github.com"]
 	helper = 
 	helper = !/usr/bin/gh auth git-credential
