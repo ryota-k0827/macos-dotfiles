@@ -8,14 +8,20 @@
     <array>
         <string>/bin/zsh</string>
         <string>-c</string>
-        <string>rm -rf ~/dotfiles/.bin/.Brewfile &amp;&amp; brew bundle dump --file ~/dotfiles/.bin/.Brewfile</string>
+        <string>
+        rm -rf ~/dotfiles/.bin/.Brewfile && \
+        brew bundle dump --file ~/dotfiles/.bin/.Brewfile && \
+        git -C ~/dotfiles add .bin/.Brewfile && \
+        git -C ~/dotfiles commit -m "Update Brewfile" && \
+        git -C ~/dotfiles push
+        </string>
     </array>
     <key>StartCalendarInterval</key>
     <dict>
         <key>Hour</key>
         <integer>0</integer>
         <key>Minute</key>
-        <integer>30</integer>
+        <integer>0</integer>
     </dict>
 </dict>
 </plist>
