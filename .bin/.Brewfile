@@ -2,6 +2,7 @@ tap "grishka/grishka"
 tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask-versions"
+tap "homebrew/services"
 tap "minacle/chntpw"
 tap "oven-sh/bun"
 tap "sanemat/font"
@@ -38,6 +39,7 @@ brew "tmux"
 brew "tree"
 brew "vim"
 brew "volta"
+brew "wakeonlan"
 brew "watchman"
 brew "wget"
 brew "wimlib"
@@ -53,14 +55,15 @@ cask "aerial"
 cask "alt-tab", args: { appdir: "/Applications" }
 cask "appcleaner", args: { appdir: "/Applications" }
 cask "asana", args: { appdir: "/Applications" }
+cask "betterdisplay"
 cask "bettertouchtool", args: { appdir: "/Applications" }
-cask "brave-browser", args: { appdir: "/Applications" }
+cask "brave-browser"
 cask "canva", args: { appdir: "/Applications" }
 cask "cheatsheet", args: { appdir: "/Applications" }
 cask "chromium", args: { appdir: "/Applications" }
 cask "deepl", args: { appdir: "/Applications" }
 cask "discord", args: { appdir: "/Applications" }
-cask "docker", args: { appdir: "/Applications" }
+cask "docker"
 cask "duet", args: { appdir: "/Applications" }
 cask "eqmac"
 cask "fig"
@@ -79,6 +82,7 @@ cask "monitorcontrol", args: { appdir: "/Applications" }
 cask "neardrop"
 cask "ngrok", args: { appdir: "/Applications" }
 cask "notion", args: { appdir: "/Applications" }
+cask "notion-calendar"
 cask "obs"
 cask "parallels", args: { appdir: "/Applications" }
 cask "postman", args: { appdir: "/Applications" }
@@ -95,11 +99,9 @@ cask "todoist", args: { appdir: "/Applications" }
 cask "utm", args: { appdir: "/Applications" }
 cask "vimr"
 cask "visual-studio-code", args: { appdir: "/Applications" }
-cask "vnc-server"
 cask "vnc-viewer", args: { appdir: "/Applications" }
 cask "warp", args: { appdir: "/Applications" }
 cask "zoom", args: { appdir: "/Applications" }
-mas "Any Screen Resolution", id: 6444128384
 mas "Disk Speed Test", id: 425264550
 mas "Gapplin", id: 768053424
 mas "GarageBand", id: 682658836
@@ -114,49 +116,51 @@ mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "PicGIF Lite", id: 844918735
 mas "RunCat", id: 1429033973
-mas "Spark", id: 1176895641
+mas "Spark Desktop", id: 6445813049
 mas "TestFlight", id: 899247664
+mas "WireGuard", id: 1451685025
 mas "Xcode", id: 497799835
-vscode "42Crunch.vscode-openapi"
+vscode "42crunch.vscode-openapi"
 vscode "aeschli.vscode-css-formatter"
-vscode "Arjun.swagger-viewer"
-vscode "asvetliakov.vscode-neovim"
+vscode "amazonwebservices.codewhisperer-for-command-line-companion"
+vscode "arjun.swagger-viewer"
 vscode "bmewburn.vscode-intelephense-client"
 vscode "bradlc.vscode-tailwindcss"
 vscode "christian-kohler.path-intellisense"
+vscode "cweijan.dbclient-jdbc"
 vscode "cweijan.vscode-mysql-client2"
-vscode "DavidAnson.vscode-markdownlint"
+vscode "davidanson.vscode-markdownlint"
 vscode "dbaeumer.vscode-eslint"
-vscode "DigitalBrainstem.javascript-ejs-support"
+vscode "digitalbrainstem.javascript-ejs-support"
 vscode "donjayamanne.githistory"
 vscode "dsznajder.es7-react-js-snippets"
 vscode "eamodio.gitlens"
 vscode "ecmel.vscode-html-css"
-vscode "Equinusocio.vsc-community-material-theme"
-vscode "Equinusocio.vsc-material-theme"
+vscode "equinusocio.vsc-material-theme"
 vscode "equinusocio.vsc-material-theme-icons"
 vscode "esbenp.prettier-vscode"
 vscode "formulahendry.auto-rename-tag"
-vscode "GitHub.codespaces"
-vscode "GitHub.copilot"
-vscode "GitHub.copilot-chat"
-vscode "GitHub.github-vscode-theme"
-vscode "GitHub.remotehub"
+vscode "github.codespaces"
+vscode "github.copilot"
+vscode "github.copilot-chat"
+vscode "github.github-vscode-theme"
+vscode "github.remotehub"
 vscode "github.vscode-github-actions"
 vscode "glenn2223.live-sass"
 vscode "humao.rest-client"
-vscode "IBM.output-colorizer"
+vscode "ibm.output-colorizer"
 vscode "icrawl.discord-vscode"
-vscode "James-Yu.latex-workshop"
+vscode "james-yu.latex-workshop"
 vscode "jebbs.markdown-extended"
-vscode "KevinRose.vsc-python-indent"
+vscode "kevinrose.vsc-python-indent"
 vscode "mechatroner.rainbow-csv"
 vscode "mermade.openapi-lint"
 vscode "mhutchie.git-graph"
 vscode "morrislaptop.vscode-open-in-sourcetree"
 vscode "mosapride.zenkaku"
 vscode "ms-azuretools.vscode-docker"
-vscode "MS-CEINTL.vscode-language-pack-ja"
+vscode "ms-ceintl.vscode-language-pack-ja"
+vscode "ms-python.debugpy"
 vscode "ms-python.python"
 vscode "ms-python.vscode-pylance"
 vscode "ms-vscode-remote.remote-containers"
@@ -173,22 +177,21 @@ vscode "ms-vsliveshare.vsliveshare"
 vscode "msjsdiag.vscode-react-native"
 vscode "oderwat.indent-rainbow"
 vscode "oven.bun-vscode"
-vscode "PKief.material-icon-theme"
-vscode "Prisma.prisma"
+vscode "pkief.material-icon-theme"
+vscode "prisma.prisma"
 vscode "proohit.openapi-snippets"
 vscode "redhat.vscode-yaml"
 vscode "rifi2k.format-html-in-php"
-vscode "ritwickdey.LiveServer"
+vscode "ritwickdey.liveserver"
+vscode "seatonjiang.gitmoji-vscode"
 vscode "shardulm94.trailing-spaces"
-vscode "SimonSiefke.svg-preview"
+vscode "simonsiefke.svg-preview"
 vscode "streetsidesoftware.code-spell-checker"
 vscode "styled-components.vscode-styled-components"
-vscode "vscodevim.vim"
+vscode "vitest.explorer"
 vscode "wayou.vscode-todo-highlight"
-vscode "withfig.fig"
 vscode "wix.vscode-import-cost"
 vscode "yoavbls.pretty-ts-errors"
 vscode "yzane.markdown-pdf"
 vscode "yzhang.markdown-all-in-one"
-vscode "ZixuanChen.vitest-explorer"
 vscode "zobo.php-intellisense"
