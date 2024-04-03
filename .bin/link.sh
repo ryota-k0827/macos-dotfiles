@@ -20,10 +20,19 @@ if [ "$(uname)" != "Darwin" ] ; then
 	exit 1
 fi
 
+LAUNCH_AGENTS_DIR="$HOME/Library/LaunchAgents"
+
 for file in "${SCRIPT_DIR}/Library/LaunchAgents"/com.* ; do
-  ln -fnsv "$file" "$HOME/Library/LaunchAgents"
+  ln -fnsv "$file" "$LAUNCH_AGENTS_DIR"
 
   filename=$(basename -- "$file")
-  launchctl load "$HOME/Library/LaunchAgents/$filename"
-done
+  label="${filename%.*}"
+  full_path="$LAUNCH_AGENTS_DIR/$filename"
 
+  if launchctl list | grep -q "$label"; then
+    launchctl unload "$full_path"
+    echo "Unloaded $label"
+  fi
+  launchctl load "$full_path"
+  echo "Loaded $label"
+done
