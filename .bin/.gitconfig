@@ -18,3 +18,5 @@
 	format = ssh
 [alias]
 	ac = !git add -A && aicommits -a
+[init]
+	defaultBranch = main
