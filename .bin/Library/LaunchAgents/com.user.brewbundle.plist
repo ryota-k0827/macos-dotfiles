@@ -8,13 +8,7 @@
     <array>
         <string>/bin/zsh</string>
         <string>-c</string>
-        <string>
-        rm -rf ~/dotfiles/.bin/.Brewfile && \
-        brew bundle dump --file ~/dotfiles/.bin/.Brewfile && \
-        git -C ~/dotfiles add .bin/.Brewfile && \
-        git -C ~/dotfiles commit -m "Update Brewfile" && \
-        git -C ~/dotfiles push
-        </string>
+        <string>rm -rf ~/dotfiles/.bin/.Brewfile &amp;&amp; brew bundle dump --file ~/dotfiles/.bin/.Brewfile &amp;&amp; git -C ~/dotfiles add .bin/.Brewfile &amp;&amp; git -C ~/dotfiles commit -m "Update Brewfile" &amp;&amp; git -C ~/dotfiles push</string>
     </array>
     <key>StartCalendarInterval</key>
     <dict>
