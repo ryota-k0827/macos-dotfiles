@@ -15,6 +15,11 @@ source ~/.zprofile
 
 
 # This script creates symbolic links in the user's Library/LaunchAgents directory for all files starting with 'com.' in the script's Library/LaunchAgents directory, and then loads each Launch Agent script using 'launchctl load'.
+if [ "$(uname)" != "Darwin" ] ; then
+	echo "Not macOS!"
+	exit 1
+fi
+
 for file in "${SCRIPT_DIR}/Library/LaunchAgents"/com.* ; do
   ln -fnsv "$file" "$HOME/Library/LaunchAgents"
 
