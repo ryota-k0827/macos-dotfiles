@@ -49,12 +49,9 @@ brew "oven-sh/bun/bun"
 brew "sanemat/font/ricty"
 brew "smudge/smudge/nightlight"
 cask "1password", args: { appdir: "/Applications" }
-cask "abyssoft-teleport"
 cask "adobe-creative-cloud", args: { appdir: "/Applications" }
-cask "aerial"
 cask "alt-tab", args: { appdir: "/Applications" }
 cask "appcleaner", args: { appdir: "/Applications" }
-cask "asana", args: { appdir: "/Applications" }
 cask "betterdisplay"
 cask "bettertouchtool", args: { appdir: "/Applications" }
 cask "brave-browser"
@@ -66,7 +63,6 @@ cask "discord", args: { appdir: "/Applications" }
 cask "docker"
 cask "duet", args: { appdir: "/Applications" }
 cask "eqmac"
-cask "fig"
 cask "figma", args: { appdir: "/Applications" }
 cask "firefox", args: { appdir: "/Applications" }
 cask "goland", args: { appdir: "/Applications" }
@@ -84,7 +80,6 @@ cask "ngrok", args: { appdir: "/Applications" }
 cask "notion", args: { appdir: "/Applications" }
 cask "notion-calendar"
 cask "obs"
-cask "parallels", args: { appdir: "/Applications" }
 cask "postman", args: { appdir: "/Applications" }
 cask "raycast", args: { appdir: "/Applications" }
 cask "react-native-debugger", args: { appdir: "/Applications" }
