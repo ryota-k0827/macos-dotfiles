@@ -1,5 +1,5 @@
 # Do everything.
-all: init link defaults brew setup other_apps
+all: init link defaults brew prezto setup other_apps
 
 # Set initial preference.
 init:
@@ -23,6 +23,12 @@ defaults:
 brew:
 	@echo "\033[0;34mRun brew.sh\033[0m"
 	@.bin/brew.sh
+	@echo "\033[0;32mDone.\033[0m"
+
+# Install Prezto
+prezto:
+	@echo "\033[0;34mRun prezto.sh\033[0m"
+	@.bin/prezto.sh
 	@echo "\033[0;32mDone.\033[0m"
 
 # Setup tools.
