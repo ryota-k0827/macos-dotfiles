@@ -7,10 +7,6 @@ volta install node@lts
 volta install yarn@1.22.19
 
 # Font Setup
-## Ricty
-echo -e "\033[0;34m- Ricty Font Setup...\033[0m"
-cp -f /opt/homebrew/opt/ricty/share/fonts/Ricty*.ttf ~/Library/Fonts/
-
 ## MesloLGS NF
 echo -e "\033[0;34m- MesloLGS NF Font Setup...\033[0m"
 git clone https://github.com/romkatv/powerlevel10k-media.git
