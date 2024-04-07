@@ -20,3 +20,5 @@
 	ac = !git add -A && aicommits -a
 [init]
 	defaultBranch = main
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
