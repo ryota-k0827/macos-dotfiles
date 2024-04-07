@@ -138,6 +138,30 @@ alias -g C='| pbcopy'
 # alias bl='brew list'
 # alias bd='brew doctor'
 
+function update-brewfile(){
+  rm -rf ~/dotfiles/.bin/.Brewfile
+  brew bundle dump --file ~/dotfiles/.bin/.Brewfile
+  git -C ~/dotfiles add .bin/.Brewfile
+  git -C ~/dotfiles commit -m "Update Brewfile"
+  git -C ~/dotfiles push
+}
+
+function pull-update-brewfile(){
+  git -C ~/dotfiles pull
+  brew bundle cleanup --global --force --file ~/dotfiles/.bin/.Brewfile
+  brew bundle --global --file ~/dotfiles/.bin/.Brewfile
+}
+
+function push-dotfiles(){
+  git -C ~/dotfiles add .
+  git -C ~/dotfiles commit -m "Update dotfiles"
+  git -C ~/dotfiles push
+}
+
+function pull-dotfiles(){
+  git -C ~/dotfiles pull
+}
+
 alias alhelp='cat ${HOME}/.zshrc'
 # ===============================================
 
