@@ -1,6 +1,6 @@
 [user]
-	name = ryota-k0827
-	email = 50436249+ryota-k0827@users.noreply.github.com
+	name = kryota-dev
+	email = 50436249+kryota-dev@users.noreply.github.com
 	signingkey = /Users/ryota/.ssh/signing-key.pub
 [core]
 	excludesfile = ~/.gitignore_global
