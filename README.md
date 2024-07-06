@@ -23,7 +23,7 @@ zsh 5.8.1 (x86_64-apple-darwin21.0)
 Download installation materials.
 
 ```shell
-% cd ~ && git clone https://github.com/ryota-k0827/dotfiles
+% cd ~ && git clone https://github.com/kryota-dev/dotfiles
 ```
 
 Set macOS.
