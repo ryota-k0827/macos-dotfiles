@@ -1,3 +1,6 @@
+# Amazon Q pre block. Keep at the top of this file.
+[[ -f "${HOME}/Library/Application Support/amazon-q/shell/zshrc.pre.zsh" ]] && builtin source "${HOME}/Library/Application Support/amazon-q/shell/zshrc.pre.zsh"
+# Q pre block. Keep at the top of this file.
 # ========== zsh config ==========
 setopt auto_pushd
 setopt pushd_ignore_dups
@@ -183,7 +186,7 @@ promptinit
 prompt powerlevel10k
 
 # Volta environment setup
-export VOLTA_FEATURE_PNPM=1
+# export VOLTA_FEATURE_PNPM=1
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -193,3 +196,9 @@ neofetch
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
+
+# Q post block. Keep at the bottom of this file.
+source /Users/ryota/.config/op/plugins.sh
+
+# Amazon Q post block. Keep at the bottom of this file.
+[[ -f "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh"
