@@ -1,0 +1,4 @@
+{
+  "prettier.trailingComma": "es5",
+  "prettier.semi": true,
+}
