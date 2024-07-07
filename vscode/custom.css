@@ -2,18 +2,3 @@
   background-image: url('https://raw.githubusercontent.com/Aikoyori/ProgrammingVTuberLogos/main/VSCode/VSCode.png') !important;
   opacity: 0.75;
 }
-
-.gettingStartedCategoriesContainer {
-  grid-template-areas: '. uwu uwu uwu .' '. header header header .' '. left-column . right-column .' '. footer footer footer .' !important;
-  grid-template-rows: auto auto 1fr auto !important;
-  > .uwu {
-    grid-area: uwu !important;
-    display: flex !important;
-    justify-content: center !important;
-    align-self: end !important;
-    padding: 48px 0 24px 0 !important;
-    > .logo {
-      width: 400px !important;
-    }
-  }
-}
