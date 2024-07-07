@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   }
 
-  waitForElement('.gettingStartedCategoriesContainer', (container) => {
+  function addCustomElement(container) {
     container.style.gridTemplateAreas = `
     ". uwu uwu uwu ."
     ". header header header ."
@@ -34,6 +34,20 @@ document.addEventListener('DOMContentLoaded', function () {
 
     uwu.appendChild(logo);
 
-    container.insertBefore(uwu, container.firstChild);
+    if (!document.querySelector('.uwu')) {
+      container.insertBefore(uwu, container.firstChild);
+    }
+  }
+
+  waitForElement('.gettingStartedCategoriesContainer', (container) => {
+    addCustomElement(container);
+
+    const observer = new MutationObserver(() => {
+      if (!document.querySelector('.uwu')) {
+        addCustomElement(container);
+      }
+    });
+
+    observer.observe(container, { childList: true, subtree: true });
   });
 });
