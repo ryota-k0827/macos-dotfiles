@@ -37,6 +37,12 @@ setup:
 	@.bin/setup.sh
 	@echo "\033[0;32mDone.\033[0m"
 
+# Setup defaultbrowser
+defaultbrowser:
+	@echo "\033[0;34mRun defaultbrowser.sh\033[0m"
+	@.bin/defaultbrowser.sh
+	@echo "\033[0;32mDone.\033[0m"
+
 # Setup Other apps
 other_apps:
 	@echo "\033[0;34mRun other_apps.sh\033[0m"
