@@ -1,0 +1,35 @@
+name: Run setup
+
+on:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  make:
+    runs-on: macos-latest
+
+    defaults:
+      run:
+        shell: zsh
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: init
+        run: make init
+
+      - name: link
+        run: make link
+
+      - name: defaults
+        run: make defaults
+
+      - name: prezto
+        run: make prezto
+
+      - name: defaultbrowser
+        run: make defaultbrowser
