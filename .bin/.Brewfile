@@ -69,7 +69,6 @@ cask "google-chrome", args: { appdir: "/Applications" }
 cask "google-drive", args: { appdir: "/Applications" }
 cask "hiddenbar", args: { appdir: "/Applications" }
 cask "iterm2"
-cask "karabiner-elements", args: { appdir: "/Applications" }
 cask "keyboardcleantool", args: { appdir: "/Applications" }
 cask "microsoft-edge", args: { appdir: "/Applications" }
 cask "minecraft"
