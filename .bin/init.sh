@@ -7,9 +7,9 @@ if [ "$(uname)" != "Darwin" ] ; then
 fi
 
 # Install Rosetta 2 for Apple Silicon
-if [ "$(uname -m)" = "arm64" ] ; then
-  /usr/sbin/softwareupdate --install-rosetta --agree-to-license
-fi
+# if [ "$(uname -m)" = "arm64" ] ; then
+#   /usr/sbin/softwareupdate --install-rosetta --agree-to-license
+# fi
 
 # Install xcode
 xcode-select --install

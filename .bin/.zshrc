@@ -200,5 +200,7 @@ typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
 # Q post block. Keep at the bottom of this file.
 source /Users/ryota/.config/op/plugins.sh
 
+eval "$(direnv hook zsh)"
+
 # Amazon Q post block. Keep at the bottom of this file.
 [[ -f "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh"
