@@ -1,15 +1,19 @@
 tap "grishka/grishka"
 tap "heroku/brew"
 tap "homebrew/bundle"
-tap "homebrew/cask-versions"
 tap "homebrew/services"
 tap "minacle/chntpw"
 tap "oven-sh/bun"
 tap "smudge/smudge"
 brew "act"
 brew "aria2"
+brew "coreutils"
+brew "libyaml"
+brew "asdf"
 brew "cabextract"
 brew "cdrtools"
+brew "curl"
+brew "direnv"
 brew "folly"
 brew "fizz"
 brew "wangle"
@@ -22,11 +26,9 @@ brew "fzf"
 brew "gh"
 brew "git"
 brew "git-secrets"
-brew "libyaml"
 brew "mas"
 brew "neofetch"
 brew "neovim"
-brew "openssl@1.1"
 brew "python@3.11"
 brew "ruby-build"
 brew "rbenv"
@@ -47,13 +49,16 @@ brew "oven-sh/bun/bun"
 brew "smudge/smudge/nightlight"
 cask "1password", args: { appdir: "/Applications" }
 cask "1password-cli"
+cask "adobe-acrobat-reader"
 cask "adobe-creative-cloud", args: { appdir: "/Applications" }
 cask "alt-tab", args: { appdir: "/Applications" }
+cask "amazon-q"
 cask "appcleaner", args: { appdir: "/Applications" }
 cask "betterdisplay"
 cask "bettertouchtool", args: { appdir: "/Applications" }
 cask "brave-browser"
 cask "canva", args: { appdir: "/Applications" }
+cask "chatgpt"
 cask "chromium", args: { appdir: "/Applications" }
 cask "deepl", args: { appdir: "/Applications" }
 cask "discord", args: { appdir: "/Applications" }
@@ -80,7 +85,6 @@ cask "slack", args: { appdir: "/Applications" }
 cask "sourcetree", args: { appdir: "/Applications" }
 cask "the-unarchiver", args: { appdir: "/Applications" }
 cask "todoist", args: { appdir: "/Applications" }
-cask "utm", args: { appdir: "/Applications" }
 cask "vimr"
 cask "visual-studio-code", args: { appdir: "/Applications" }
 cask "warp", args: { appdir: "/Applications" }
@@ -93,7 +97,6 @@ mas "Keynote", id: 409183694
 mas "LINE", id: 539883307
 mas "Microsoft Excel", id: 462058435
 mas "Microsoft PowerPoint", id: 462062816
-mas "Microsoft Remote Desktop", id: 1295203466
 mas "Microsoft Word", id: 462054704
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
@@ -101,14 +104,20 @@ mas "PicGIF Lite", id: 844918735
 mas "RunCat", id: 1429033973
 mas "Spark Desktop", id: 6445813049
 mas "TestFlight", id: 899247664
+mas "Windows App", id: 1295203466
 mas "WireGuard", id: 1451685025
 mas "Xcode", id: 497799835
 vscode "1password.op-vscode"
 vscode "42crunch.vscode-openapi"
 vscode "aeschli.vscode-css-formatter"
+vscode "amazonwebservices.codewhisperer-for-command-line-companion"
 vscode "arjun.swagger-viewer"
+vscode "astro-build.astro-vscode"
+vscode "be5invis.vscode-custom-css"
+vscode "biomejs.biome"
 vscode "bmewburn.vscode-intelephense-client"
 vscode "bradlc.vscode-tailwindcss"
+vscode "chakrounanas.turbo-console-log"
 vscode "christian-kohler.path-intellisense"
 vscode "cweijan.dbclient-jdbc"
 vscode "cweijan.vscode-mysql-client2"
@@ -119,10 +128,10 @@ vscode "donjayamanne.githistory"
 vscode "dsznajder.es7-react-js-snippets"
 vscode "eamodio.gitlens"
 vscode "ecmel.vscode-html-css"
-vscode "equinusocio.vsc-community-material-theme"
 vscode "equinusocio.vsc-material-theme"
 vscode "equinusocio.vsc-material-theme-icons"
 vscode "esbenp.prettier-vscode"
+vscode "figma.figma-vscode-extension"
 vscode "formulahendry.auto-rename-tag"
 vscode "github.codespaces"
 vscode "github.copilot"
@@ -158,7 +167,6 @@ vscode "ms-vscode.remote-explorer"
 vscode "ms-vscode.remote-repositories"
 vscode "ms-vscode.remote-server"
 vscode "ms-vsliveshare.vsliveshare"
-vscode "msjsdiag.vscode-react-native"
 vscode "oderwat.indent-rainbow"
 vscode "oven.bun-vscode"
 vscode "pkief.material-icon-theme"
@@ -172,12 +180,15 @@ vscode "shardulm94.trailing-spaces"
 vscode "simonsiefke.svg-preview"
 vscode "streetsidesoftware.code-spell-checker"
 vscode "styled-components.vscode-styled-components"
+vscode "unifiedjs.vscode-mdx"
+vscode "visualstudioexptteam.intellicode-api-usage-examples"
+vscode "visualstudioexptteam.vscodeintellicode"
 vscode "vitest.explorer"
 vscode "vscodevim.vim"
 vscode "wayou.vscode-todo-highlight"
 vscode "wix.vscode-import-cost"
 vscode "yoavbls.pretty-ts-errors"
+vscode "yusukehirao.vscode-markuplint"
 vscode "yzane.markdown-pdf"
 vscode "yzhang.markdown-all-in-one"
-vscode "zixuanchen.vitest-explorer"
 vscode "zobo.php-intellisense"
