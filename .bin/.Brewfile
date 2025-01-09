@@ -37,7 +37,6 @@ brew "shellcheck"
 brew "tmux"
 brew "tree"
 brew "vim"
-brew "volta"
 brew "wakeonlan"
 brew "watchman"
 brew "wget"
@@ -55,44 +54,35 @@ cask "betterdisplay"
 cask "bettertouchtool", args: { appdir: "/Applications" }
 cask "brave-browser"
 cask "canva", args: { appdir: "/Applications" }
-cask "cheatsheet", args: { appdir: "/Applications" }
 cask "chromium", args: { appdir: "/Applications" }
 cask "deepl", args: { appdir: "/Applications" }
 cask "discord", args: { appdir: "/Applications" }
 cask "docker"
 cask "duet", args: { appdir: "/Applications" }
-cask "eqmac"
 cask "figma", args: { appdir: "/Applications" }
 cask "firefox", args: { appdir: "/Applications" }
-cask "goland", args: { appdir: "/Applications" }
 cask "google-chrome", args: { appdir: "/Applications" }
 cask "google-drive", args: { appdir: "/Applications" }
 cask "hiddenbar", args: { appdir: "/Applications" }
 cask "iterm2"
 cask "keyboardcleantool", args: { appdir: "/Applications" }
 cask "microsoft-edge", args: { appdir: "/Applications" }
-cask "minecraft"
 cask "monitorcontrol", args: { appdir: "/Applications" }
-cask "neardrop"
 cask "ngrok", args: { appdir: "/Applications" }
 cask "notion", args: { appdir: "/Applications" }
 cask "notion-calendar"
 cask "obs"
 cask "postman", args: { appdir: "/Applications" }
 cask "raycast", args: { appdir: "/Applications" }
-cask "react-native-debugger", args: { appdir: "/Applications" }
 cask "rectangle"
 cask "scroll-reverser", args: { appdir: "/Applications" }
-cask "sequel-ace", args: { appdir: "/Applications" }
 cask "slack", args: { appdir: "/Applications" }
 cask "sourcetree", args: { appdir: "/Applications" }
-cask "stoplight-studio"
 cask "the-unarchiver", args: { appdir: "/Applications" }
 cask "todoist", args: { appdir: "/Applications" }
 cask "utm", args: { appdir: "/Applications" }
 cask "vimr"
 cask "visual-studio-code", args: { appdir: "/Applications" }
-cask "vnc-viewer", args: { appdir: "/Applications" }
 cask "warp", args: { appdir: "/Applications" }
 cask "zoom", args: { appdir: "/Applications" }
 mas "Disk Speed Test", id: 425264550

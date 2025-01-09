@@ -1,11 +1,5 @@
 #!/bin/zsh
 
-# Volta Setup
-echo -e "\033[0;34m- Volta Setup...\033[0m"
-volta setup
-volta install node@lts
-volta install yarn@1.22.19
-
 # Font Setup
 ## MesloLGS NF
 echo -e "\033[0;34m- MesloLGS NF Font Setup...\033[0m"

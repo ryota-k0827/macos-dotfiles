@@ -98,14 +98,6 @@ alias dcu='docker compose up'
 alias dcud='docker compose up -d'
 alias dcd='docker compose down'
 
-# alias v='volta'
-# alias vin='volta install'
-# function vrm (){
-# local PACKAGE_DIR=$1
-# rm -rf ~/.volta/tools/image/${PACKAGE_DIR}
-# }
-# alias vp='volta pin'
-
 alias vi="nvim"
 alias vim="nvim"
 alias view="nvim -R"
@@ -185,9 +177,6 @@ autoload -Uz promptinit
 promptinit
 prompt powerlevel10k
 
-# Volta environment setup
-# export VOLTA_FEATURE_PNPM=1
-
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
@@ -197,10 +186,9 @@ neofetch
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
 
-# Q post block. Keep at the bottom of this file.
-source /Users/ryota/.config/op/plugins.sh
-
 eval "$(direnv hook zsh)"
 
 # Amazon Q post block. Keep at the bottom of this file.
 [[ -f "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh"
+
+. /opt/homebrew/opt/asdf/libexec/asdf.sh

@@ -3,10 +3,6 @@
 # Set Homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-# Set Volta
-export VOLTA_HOME="$HOME/.volta"
-export PATH="$VOLTA_HOME/bin:$PATH"
-
 export npm_config_python=/opt/homebrew/opt/python@3.11/bin/python3.11
 
 # Set rbenv
